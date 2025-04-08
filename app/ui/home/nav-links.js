@@ -6,7 +6,7 @@ import clsx from 'clsx';
 // Depending on the size of the application, this would be stored in a database.
 const links = [
   { name: "Home", href: "/" },
- { name: "Contact us", href: "/checkout" },
+ { name: "Get started", href: "/checkout" },
 ];
 
 export default function NavLinks() {
