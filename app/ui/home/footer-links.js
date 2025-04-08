@@ -2,8 +2,9 @@ import Link from "next/link";
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { name: "Terms and Conditions of Sale", href: "/terms-conditions" },
-  { name: "Privacy Policy", href: "/" },
+  { name: "Terms and Conditions of Service", href: "/terms-conditions" },
+  { name: "Privacy Policy", href: "/privacy-policy" },
+  { name: "Data Processing Agreement", href: "/" },
 
 ];
 

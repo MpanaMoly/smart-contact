@@ -5,7 +5,7 @@ import { inter, lusitana, roboto } from "./ui/fonts";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex flex-col m-4 p-4 antialiased shadow-2xl rounded-2xl">
+      <body className={`${roboto.className} flex flex-col ml-4 mr-4 mt-0 pl-4 pr-4 antialiased shadow-xl rounded-2xl`}>
               <Nav />   
             {children}
             <Footer />

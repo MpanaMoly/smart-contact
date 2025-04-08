@@ -19,14 +19,14 @@ export default function Home() {
         <div className="flex flex-row">
           <div className="flex flex-col grow p-4 shadow-md rounded-2xl">
             <div className="flex flex-row">
-              <h1 className={`${lusitana.className} antialiased text-5xl text-zinc-900`}>
+              <h1 className={`${inter.className} antialiased text-5xl text-zinc-900`}>
                 {" "}
                 Build your Website with confidence
               </h1>
             </div>
             <div className="flex flex-row">
               <div className="flex flex-col grow ">
-                <p className={`${inter.className} antialiased text-zinc-500`}>
+                <p className={`${roboto.className} antialiased text-zinc-500`}>
                   We create professional websites for businesses and
                   individuals. We also provide expert redesign services for
                   outdated websites.
@@ -36,12 +36,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-2 md:flex md:flex-row justify-around space-x-4 p-4 ">
+        <div className="flex flex-col grow space-y-2 md:flex md:flex-row space-x-4 p-4 ">
           
           <div className="flex flex-col items-center justify-items-center rounded-2xl shadow-md p-4">
             <div className="flex flex-col items-center justify-items-center">
               <PaintBrushIcon className="h-20 w-20 text-blue-400" />
-              <p className={`${lusitana.className} antialiased text-2xl texxt-zinc-900`}>
+              <p className={`${inter.className} antialiased text-2xl text-zinc-900`}>
                 {" "}
                 Web Design
               </p>
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-items-center rounded-2xl shadow-md p-4">
             <div className="flex flex-col items-center justify-items-center">
               <CodeBracketIcon className="h-20 w-20 text-blue-400" />
-              <p className={`${lusitana.className} antialiased text-2xl texxt-zinc-900`}>
+              <p className={`${inter.className} antialiased text-2xl text-zinc-900`}>
                 Development
               </p>
             </div>
@@ -136,7 +136,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-items-center rounded-2xl shadow-md p-4">
             <div className="flex flex-col items-center justify-items-center">
               <ArrowPathRoundedSquareIcon className="h-20 w-20 text-blue-400" />
-              <p className={`${lusitana.className} antialiased text-2xl texxt-zinc-900`}>
+              <p className={`${inter.className} antialiased text-2xl text-zinc-900`}>
                 {" "}
                 Redesign{" "}
               </p>
