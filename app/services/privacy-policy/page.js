@@ -1,5 +1,5 @@
 import { lusitana, inter, roboto } from "@/app/ui/fonts";
-import { Pragati_Narrow } from "next/font/google";
+
 export default function Page() {
 const paragraphs = [{title : "1. Introduction", content :`Welcome to Smart-contact.pro. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
 

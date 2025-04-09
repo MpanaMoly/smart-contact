@@ -1,5 +1,5 @@
 import { lusitana, inter, roboto } from "@/app/ui/fonts";
-import { Pragati_Narrow } from "next/font/google";
+
 export default function Page() {
 const paragraphs = [{title:"1. Consent and Acceptance",
     content: `By checking the consent box presented on our website forms, you:

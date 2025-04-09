@@ -1,21 +1,23 @@
+'use client'
 import Link from 'next/link';
 import NavLinks from '@/app/ui/home/nav-links';
 import SmartContactLogo from '@/app/ui/smart-contact-logo';
-// import { PowerIcon } from '@heroicons/react/24/outline';
 
 export default function Nav() {
   return (
-    <div className="flex space-x-4  items-center justify-items-center m-4 p-2 shadow-md"> 
-      <div className=' p-2'>
-        <Link href="/">
-          <SmartContactLogo/>
-        </Link> 
-      </div>
+    <div className='fixed inset-x-0 top-0 z-10 border-b border-gray-950/5'>
       
-        <div className="flex justify-center space-x-4 p-2">
-          <NavLinks />
-        </div>
+    <div className="flex h-14 items-center justify-between gap-8 px-4 md:pr-10 sm:px-6"> 
       
+      <Link href="/" className='flex items-center gap-4'>
+        <SmartContactLogo/>
+      </Link> 
+    
+    
+            <div className="flex items-center gap-6 max-md:hidden">
+              <NavLinks />
+            </div>
+    </div>
     </div>
   );
 }

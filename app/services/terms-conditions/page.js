@@ -6,7 +6,7 @@ const paragraphs = [{title : "1. Purpose", content : " These Terms and Condition
         (business sites, e-commerce, blogs, etc.) • Website redesign and
         optimization • Maintenance and technical support • SEO and digital
         marketing`},
-    {title : "3. Pricing and Payment", content : `• Service prices are listed in euros (€)
+    {title : "3. Pricing and Payment", content : `• Service prices are listed in USD ($)
       and may vary depending on the client’s needs. • A 30% deposit is required
       at the time of order. The remaining balance must be paid before the
       website goes live. • Payment can be made via bank transfer, credit card,

@@ -196,14 +196,14 @@ export default function Form() {
   />
   <label htmlFor="dpaConsent" className="text-sm text-gray-600">
     I agree to the{' '}
-    <Link href="/dpa" target="_blank" className="text-blue-600 underline">
+    <Link href="/services/dpa" target="_blank" className="text-blue-600 underline">
       Data Processing Agreement
     </Link>{' '}
     and consent to the collection and use of my personal data.
   </label>
 </div>
-        <div className="mt-6 flex items-center justify-items-center mt-4">
-        <button type="submit" className='flex h-10 items-center rounded-lg bg-gray-700 px-4 text-sm font-medium text-white transition-colors hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-blue-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50'>Order</button>
+        <div className="flex items-center justify-items-center mt-4">
+        <button type="submit" className='flex h-10 items-center rounded-lg bg-gray-700 px-4 text-sm font-medium text-white transition-colors hover:bg-blue-400 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-blue-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50'>Order</button>
       </div>
       </div>
     </form>

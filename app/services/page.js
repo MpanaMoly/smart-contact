@@ -1,7 +1,12 @@
 import Form from "@/app/ui/create-form";
+import Nav from "@/app/ui/home/nav";
+
 export default function Page(){
 
     return(
+        
+        <div>
+        <Nav/>
         <main  className="flex flex-col  ml-4 mr-4 mb-4 items-center justify-center">
         <Form/>
         <div className="p-4">
@@ -10,5 +15,6 @@ export default function Page(){
             <p> Payment can be made via bank transfer, credit card, or PayPal</p>
         </div>
         </main>
+        </div>
     );
 }
