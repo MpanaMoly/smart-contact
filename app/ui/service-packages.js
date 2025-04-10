@@ -17,7 +17,6 @@ import {
   Code,
   RefreshCcw,
   Puzzle,
-  CircleCheckIcon,
 } from "lucide-react";
 
 
